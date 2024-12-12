@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+    <listeners>
+        <listener class-name="sujal.TestComponents.Listeners"/>
+    </listeners>
+    <test name="Submit Order">
+        <classes>
+            <class name="sujal.tests.Submitorder"/> <!-- Replace with your test class -->
+
+        </classes>
+    </test>
+
+    <test name="Error Validations">
+        <classes>
+            <class name="sujal.tests.LoginErrorvalidations"/> <!-- Replace with your test class -->
+        </classes>
+    </test>
+</suite>

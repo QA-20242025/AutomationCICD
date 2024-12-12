@@ -1,0 +1,12 @@
+[
+  {
+  "email" : "qwerty@asd.com",
+    "password" : "Abcd@123",
+    "Product": "ZARA COAT 3"
+  },
+  {
+    "email" : "qwertyuiop@asdf.com",
+    "password" : "Abcde@123",
+    "Product": "ADIDAS ORIGINAL"
+  }
+]
