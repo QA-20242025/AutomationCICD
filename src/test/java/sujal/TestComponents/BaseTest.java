@@ -37,6 +37,10 @@ public class BaseTest {
 
         if (Browsername.contains("chrome")) {
             ChromeOptions options = new ChromeOptions();
+             String chromeDriverPath = System.getenv("CHROMEDRIVER_PATH");
+        if (chromeDriverPath != null) {
+            System.setProperty("webdriver.chrome.driver", chromeDriverPath);
+        }
             WebDriverManager.chromedriver().setup();
             if (Browsername.contains("headless")) {
                 options.addArguments("headless");
